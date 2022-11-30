@@ -30,20 +30,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "compileSdkVersion": 33
-          },
-          "ios": {
-            "useFrameworks": "static",
-            "deploymentTarget": "13.0"
-          }
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "58de1248-7b3b-47c0-abb9-b778824472f2"
